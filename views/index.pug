@@ -1,0 +1,20 @@
+html
+    head
+        title Секта
+    body
+    h1 Create
+    </br>
+        form(action='/api/sektants' method="POST")
+            input(type="text" name='name' placeholder="Name")
+            input(type="text" name='surname' placeholder="Surname")
+            input(type="text" name='country' placeholder="Country")
+            input(type="text" name='phoneNumber' placeholder="Phone number")
+            input(type="text" name='age' placeholder="Age")
+            input(type="submit" value="create")   
+        a(href='/api/sektants') View all  
+    </br>
+        h1 Delete someone
+        form(action='/api/sektants/:name' method="DELETE")
+            input(type="text" name='name' placeholder="Name")
+            input(type="submit" value="delete")
+        
