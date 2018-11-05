@@ -1,4 +1,4 @@
 # sektants
-Mongo DB
-PUG engine
+Mongo DB,
+PUG engine,
 CRUD
